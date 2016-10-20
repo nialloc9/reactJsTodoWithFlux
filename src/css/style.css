@@ -1,0 +1,78 @@
+body{
+    background-image: url(https://lh3.googleusercontent.com/-IzW_GQEdhP8/VM5hZTGvXII/AAAAAAAABto/3yM6sf7_vhA/s1600/free-download-1600x900-resolution-of-high-quality-background-cool.jpg);
+    height: 100%;
+    background-size: cover; /* Cover will cover the whole page without a spot missing. If we use contain and make the page smaller it will create new pictures as we shrink the page. */
+    margin-bottom: 50px;
+
+    /* Below we can center everything.  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.todoComponent ul{
+    background-color: darkblue;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+    width: 500px;
+}
+.todoComponent ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 3px;
+    margin: 2px;
+}
+
+.todoComponentCompleteClick{
+    background-color: greenyellow;
+    border: 1px solid black;
+    height: 50%;
+    color: white;
+    margin: 0;
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+}
+
+.todoComponentActivateClick{
+    background-color: blue;
+    border: 1px solid black;
+    height: 50%;
+    color: white;
+    margin: 0;
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+}
+
+.toDoComponetDeleteClick{
+    background-color: red;
+    border: 1px solid black;
+    height: 50%;
+    color: white;
+    margin: 0;
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+}
+
+.todoComponentText span{
+    max-width: 500px;
+}
+
+.todoComponentBtn{
+    font-size: 25px;
+    margin-right: 5px;
+    border: 2px solid black;
+    color: white;
+    background-color: darkmagenta;
+    cursor: pointer;
+}
+
+.todoComponentCreateInput{
+    height: 20px;
+    padding-top: 9px;
+    border: solid 2px black;
+    font-size: 20px;
+}
